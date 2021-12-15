@@ -30,7 +30,10 @@ public class Ejemplo12 {
         System.out.println("Ingrese el número de elementos del arreglo");
         numeroElementos = entrada.nextInt();
         sueldos = new double[numeroElementos];
-                
+        
+        if (numeroElementos<5){
+            System.out.println("número de elementos fuera de rango");
+        }else{
         for (int i = 0; i < numeroElementos; i++) {
             // se solicita el los datos por teclado
             System.out.println("Ingrese el sueldo de un empleado");
@@ -43,8 +46,9 @@ public class Ejemplo12 {
             
         }
         
-        System.out.printf("La suma de los sueldos es: %.2f\n", sumaSueldos);
         
+        System.out.printf("La suma de los sueldos es: %.2f\n", sumaSueldos);
+        }
     }
 
 }

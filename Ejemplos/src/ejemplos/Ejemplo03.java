@@ -27,6 +27,9 @@ public class Ejemplo03 {
         // arreglo de tipo entero
         int[] arreglo3 = {5, 10, 15, 20, 25};
         
+        double[] arregloDouble = {0.1, 0.2, 0.3};
+        
+        String[] arregloString = {"hola", " hola1", "hola2", "hola3"};
     }
 
 }
